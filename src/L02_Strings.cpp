@@ -79,7 +79,7 @@ char *stringMysteryCreate(int n) {
     for (int i = n-1; i >=0; i--) {
         str[i] = i + '0';
     }
-	str[n / 2] = n / 2 + 'A';
+	str[n / 2] = n / 2 + 'A';	
 	str[n / 3] = '?';
 	str[n] = '\0';
     return str;
