@@ -41,7 +41,7 @@ void computeSumAndProduct02(int number1, int number2, int sum, int product) {
     int *pProduct = &product;
     *pSum = number1 + number2;
     *pProduct = number1 * number2;
-}
+}	
 
 SAP computeSumAndProduct11(int number1, int number2) {
     SAP sp;
