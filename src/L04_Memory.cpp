@@ -9,7 +9,7 @@
 void makeItNoMystery(char *mystery) {
     mystery = (char *)malloc(3);
     mystery[0] = 'N';
-    mystery[1] = 'O';
+    mystery[1] = 'O';	
     mystery[2] = '\0';
 }
 
